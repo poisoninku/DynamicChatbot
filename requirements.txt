@@ -1,0 +1,4 @@
+flask
+spacy
+rasa
+numpy

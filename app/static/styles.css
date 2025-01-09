@@ -1,0 +1,79 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Form container */
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Input field */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Response container */
+#response {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Message styles */
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* User and bot message differentiation */
+#response p:nth-child(odd) {
+    color: #007bff;  /* User messages in blue */
+}
+
+#response p:nth-child(even) {
+    color: #333;  /* Bot messages in gray */
+}
